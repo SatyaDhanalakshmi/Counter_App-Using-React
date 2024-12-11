@@ -1,0 +1,36 @@
+.Wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+}
+.counter{
+    font-size:20px;
+}
+.head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Wrapper button{
+border:none;
+outline:none;
+padding:10px 15px;
+font-size:22px;
+border-radius:4px;
+color:white;
+cursor:pointer;
+margin-top:21px;
+}
+button.increment_btn{
+    background-color: blue;
+    color:white;
+
+}
+button.decrement_btn{
+    background-color:red;
+}
+button:disabled{
+    opacity:0.6;
+}
